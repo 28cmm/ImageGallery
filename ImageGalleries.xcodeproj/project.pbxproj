@@ -15,6 +15,7 @@
 		28CA0F3121F666E800DBC6C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CA0F3021F666E800DBC6C5 /* main.m */; };
 		28CA0F3B21F666E800DBC6C5 /* ImageGalleriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CA0F3A21F666E800DBC6C5 /* ImageGalleriesTests.m */; };
 		28CA0F4621F666E800DBC6C5 /* ImageGalleriesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CA0F4521F666E800DBC6C5 /* ImageGalleriesUITests.m */; };
+		28CA0F5721F684AD00DBC6C5 /* ImageDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CA0F5421F67A8300DBC6C5 /* ImageDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		28CA0F4121F666E800DBC6C5 /* ImageGalleriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageGalleriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28CA0F4521F666E800DBC6C5 /* ImageGalleriesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageGalleriesUITests.m; sourceTree = "<group>"; };
 		28CA0F4721F666E800DBC6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28CA0F5321F67A8300DBC6C5 /* ImageDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageDetailViewController.h; sourceTree = "<group>"; };
+		28CA0F5421F67A8300DBC6C5 /* ImageDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				28CA0F2221F666E700DBC6C5 /* AppDelegate.m */,
 				28CA0F2421F666E700DBC6C5 /* ViewController.h */,
 				28CA0F2521F666E700DBC6C5 /* ViewController.m */,
+				28CA0F5321F67A8300DBC6C5 /* ImageDetailViewController.h */,
+				28CA0F5421F67A8300DBC6C5 /* ImageDetailViewController.m */,
 				28CA0F2721F666E700DBC6C5 /* Main.storyboard */,
 				28CA0F2A21F666E800DBC6C5 /* Assets.xcassets */,
 				28CA0F2C21F666E800DBC6C5 /* LaunchScreen.storyboard */,
@@ -265,6 +270,7 @@
 				28CA0F2621F666E700DBC6C5 /* ViewController.m in Sources */,
 				28CA0F3121F666E800DBC6C5 /* main.m in Sources */,
 				28CA0F2321F666E700DBC6C5 /* AppDelegate.m in Sources */,
+				28CA0F5721F684AD00DBC6C5 /* ImageDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
